@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Hex Guesser Game</title>
         <link rel="stylesheet" href="src/index.css">
+        <script src="src/index.js" defer></script>
     </head>
     <body>
         <div class="container">
@@ -12,7 +13,9 @@
                 Try to guess the color shown in hex format.
             </p>
             <div class="square" id="squareID"></div>
-            <button type="button" onclick="updateColor()">New Color</button>
+            <div class="action">
+                <button onclick="updateColor()">New Color</button>
+            </div>
         </div>
         <script defer src="src/index.js" charset="utf-8"></script>
     </body>
